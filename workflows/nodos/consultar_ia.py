@@ -15,7 +15,7 @@ modelo_ia = ChatOpenAI(
     model=os.getenv("IA_MODEL", ""),
     base_url=os.getenv("IA_URL", ""),
     api_key=os.getenv("IA_API_KEY", ""),
-    temperature=0.7,
+    temperature=0.0,
     streaming=True
 )
 
